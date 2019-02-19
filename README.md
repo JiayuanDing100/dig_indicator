@@ -7,6 +7,7 @@ In data folder, it includes the pre-trained fasttext bin model(vector length: 20
 In test.py file, first it outputs the sentence vector of user's input, then outputs the category and its probability.
 
 Sample:
+
 Input: incall girl
 
 [[ 0.03920003  0.34195638  0.2633262  -0.33317611  0.23232044  0.19340721
@@ -16,7 +17,9 @@ Input: incall girl
    
 [{'score': 0.9999998981559567, 'value': 'incall'},
 
-{'score': 1.0, 'value': 'outcall'}, {'score': 0.5521221254944197, 'value': 'movement'}, 
+{'score': 1.0, 'value': 'outcall'}, 
+
+{'score': 0.5521221254944197, 'value': 'movement'}, 
 
 {'score': 1.2153211397728898e-07, 'value': 'multi_girls'}, 
 
