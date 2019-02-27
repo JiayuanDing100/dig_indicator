@@ -8,7 +8,7 @@ In data folder, it includes the pre-trained fasttext bin model(vector length: 20
 
 When use test_file.py to test your file. Following the command: python test_file.py input_file output_file
 
-In output file, the sentence in each line is followed by the json object, which includes the probability for each attribute like incall, outcall, risky.
+In output file, the sentence in each line is followed by the json object, which includes the probability for each attribute like incall, outcall, risky. You can also refer to the input_sample file and output_sample file.
 
 
 ### test.py
