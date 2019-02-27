@@ -4,17 +4,14 @@
 
 In data folder, it includes the pre-trained fasttext bin model(vector length: 20), pre-trained incall, outcall, movement, multi-girls, risky models.
 
-test_file.py
+###test_file.py
 
-
-When use test_file.py to test your file. Following the command:
-
-python test_file.py input_file output_file
+When use test_file.py to test your file. Following the command: python test_file.py input_file output_file
 
 Input: txt.
 
 
-test.py
+###test.py
 
 In test.py file, first it outputs the sentence vector of user's input, then outputs the category and its probability.
 
